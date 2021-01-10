@@ -40,9 +40,9 @@ def show_data(weather_details):
     weather_description = weather_details["weather"][0]["description"]
     
 
-    print("Current temperature: {} Degree(s) Fahrenheit".format(temp))
-    print("Highest temperature: {} Degree(s) Fahrenheit".format(highTemp))
-    print("Lowest temperature: {} Degree(s) Fahrenheit".format(lowTemp))
+    print("Current temperature: {} degrees Fahrenheit".format(temp))
+    print("Highest temperature: {} degrees Fahrenheit".format(highTemp))
+    print("Lowest temperature: {} degrees Fahrenheit".format(lowTemp))
     print("Wind speed: {} Meters A Second".format(wind_speed))
     print("Pressure: {} hecto Pascals".format(pressure))
     print("Latitude: {}".format(latitude))
