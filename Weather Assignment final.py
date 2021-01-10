@@ -36,7 +36,7 @@ def show_data(weather_details):
     pressure = weather_details["main"]["pressure"]
     latitude = weather_details["coord"]["lat"]
     longitude = weather_details["coord"]["lon"]
-    humid = weather_details["main"]["humidity"]
+    humidity = weather_details["main"]["humidity"]
     weather_description = weather_details["weather"][0]["description"]
     
 
@@ -47,7 +47,7 @@ def show_data(weather_details):
     print("Pressure: {} hecto Pascals".format(pressure))
     print("Latitude: {}".format(latitude))
     print("Longitude: {}".format(longitude))
-    print("Humidity: {} Percent".format(humid))
+    print("Humidity: {} Percent".format(humidity))
     print("Weather description: {}".format(weather_description))
 
     Add_location()
